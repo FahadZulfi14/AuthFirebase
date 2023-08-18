@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mainD{
+    
+    align-items: center;
+    
+    background: url('images/minion.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* display: grid; */
+    height: 100vh;
+    place-items: center;
+    overflow: hidden;
+    
+    
+  }
+
+  #deleteUser:hover{
+   background-color: red;
+  }
